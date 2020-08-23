@@ -1,17 +1,24 @@
-# -give-this-module-a-name
+# Score-Keeper
 
 ## Feature
 
-What part of the game does this module deliver?
+This module takes care of scores in the game
+and declare winner
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Register point for players
 
-  Given -give-initial-values-and-conditions
+Given -give-initial-values-and-conditions
 
-  When -event-happens
+When -event-happens
 
-  Then -module-does-this
+Then -module-does-this
 
-### -add-scenario-if-needed
+### Scenario: Declare Winner
+
+Given -give-initial-values-and-conditions
+
+When -event-happens
+
+Then -module-does-this

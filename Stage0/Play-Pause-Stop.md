@@ -1,12 +1,12 @@
-# User-Interface Elements
+# Start-up, Pause and Closing Window
 
 ## Feature
 
-This module takes care of all the visible elements of the game UI.
+This module governs what comes on start-up and closing of game
 
 ## Acceptance Criteria
 
-### Scenario: Load Basic elements
+### Scenario: Start-up screen
 
 - Given -give-initial-values-and-conditions
 
@@ -14,7 +14,7 @@ This module takes care of all the visible elements of the game UI.
 
 - Then -module-does-this
 
-### Scenario: Winner announcement Animation
+### Scenario: Start-up screen
 
 - Given -give-initial-values-and-conditions
 
@@ -22,7 +22,7 @@ This module takes care of all the visible elements of the game UI.
 
 - Then -module-does-this
 
-### Scenario: Point Scored Animation
+### Scenario: Closing screen
 
 - Given -give-initial-values-and-conditions
 
