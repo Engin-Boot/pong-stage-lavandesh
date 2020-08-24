@@ -4,7 +4,8 @@
 
 'Play-Pause-Stop' module shows the starting-up window
 which loads elements from the 'UI' module, after player
-selects the mode out of - 'Mono' and'Duo'.
+selects the mode out of - 'Mono' and'Duo', UI module
+loads the plancs and ball.
 
 ## Movement Initiation
 

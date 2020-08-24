@@ -14,7 +14,7 @@ This module governs what comes on start-up and closing of game
 
 - Then -module-does-this
 
-### Scenario: Start-up screen
+### Scenario: Pause screen
 
 - Given -give-initial-values-and-conditions
 

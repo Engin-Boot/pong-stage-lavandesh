@@ -7,7 +7,7 @@ between any two objects
 
 ## Acceptance Criteria
 
-### Scenario: Collision of Ball and planc
+### Scenario: Collision of Ball and paddle
 
 - Given -give-initial-values-and-conditions
 
