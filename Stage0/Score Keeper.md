@@ -9,16 +9,17 @@ and declare winner
 
 ### Scenario: Register point for players
 
-Given -give-initial-values-and-conditions
+Given : Game is ON
 
-When -event-happens
+When : Collision module notify to update score of certain player
 
-Then -module-does-this
+Then : Update score by one for that certain player
 
 ### Scenario: Declare Winner
 
-Given -give-initial-values-and-conditions
+Given : Game is ON
 
-When -event-happens
+When : Any player gets 10th point
 
-Then -module-does-this
+Then : Trigger winner screen with player name in argument
+in Play-Paise-Start module
