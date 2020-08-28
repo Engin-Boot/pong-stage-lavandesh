@@ -9,18 +9,26 @@ between any two objects
 
 ### Scenario: Collision of Ball and paddle
 
-- Given -give-initial-values-and-conditions
+- Given : Game is ON.
 
-- When -event-happens
+- When : Ball and Paddle Collide
 
-- Then -module-does-this
+- Then : Change x-axis component of velocity in movement module
+if ball collide with 'vertical' paddles.
+Update acceleration in movement module
+based on ball and paddle property modules.
 
 ### Scenario: Collision of Ball and wall
 
-- Given -give-initial-values-and-conditions
+- Given : Game is ON.
 
-- When -event-happens
+- When : Ball and wall Collide
 
-- Then -module-does-this
-
-
+- Then : Update score of opposite player in score-keeper module 
+and position ball at the centre,
+If ball collide with 'vertical' walls
+**OR**
+change y-axis component of velocity in movement module
+if ball collide with 'horizontal' walls.
+Update acceleration in movement module
+based on ball and paddle property modules.
